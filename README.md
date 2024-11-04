@@ -42,6 +42,9 @@ If you're using neovim, you wouldn't be dealing with a bunch of windows/tabs but
 Eventually of course we would need to add functionality to more editors but for simplicity, I'm just using
 my personal editor.
 
+If you want to use this yourself, you can clone the repo and say `go build -o zet.exe` and
+set an env variable ZET_DIR to the directory you want to use for slips.
+
 ## Goals
 
 ### Have a main command 'zet'
@@ -62,6 +65,7 @@ There can be a few ways to do this:
 Could print a buffer where a combination of zets is compiled. 
 
 2. zet -b\[browse\] elephants
+
 
 Could open a telescope.nvim window that shows list of that topic/tag. Then we can link
 accordingly inside each zet.
