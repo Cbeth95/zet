@@ -32,8 +32,10 @@ of individual thoughts.
 This repo is an attempt an emulation of this technique using neovim. The command `gf`
 actually searches for a file under that current position of the cursor and opens it in a new buffer.
 Linking each thought would be as simple as:
-        
-        A thought (Link to another thought)[ UID.md ]
+
+```markdown
+A thought (Link to another thought)[ UID.md ]
+```
 
 If you're using neovim, you wouldn't be dealing with a bunch of windows/tabs but different buffers.
 
